@@ -19,6 +19,23 @@ main {
     height: 50vh;
 
 }
+.hero-content{
+    
+    padding: 15px;
+    box-shadow: 2px 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    text-align: center;
+    border: solid;
+    transform: scale(0.8);
+    transition-property: color;
+    transition-duration: 1s;
+    transition-delay: 0.1s;
+    transition-timing-function: ease;
+    
+}
+.hero-content:hover{
+    color:orange
+}
 
 .content-section {
     padding: 15px;
@@ -28,20 +45,17 @@ main {
     color: #950000;
 }
 
-.sub-title {
-    background-color: blanchedalmond;
-    height: 45px;
-    display: flex;
-    align-items: center;
-    padding-left: 15px;
-}
-
-.images {
+.image-container{
     display: flex;
     gap: 10px;
 }
 
-.images img {
-    width: 45%;
-    margin: 0 auto;
+.image-container img {
+    width: 25%;
+    height: auto;
+    overflow: hidden;
+}
+
+.footer{
+    background: linear-gradient(red, blue);
 }
