@@ -5,10 +5,15 @@ body {
 }
 
 main {
-    width: 1000px;
-    margin: 0 auto;
-    background-color: white;
+     max-width: 1000px;
+     padding: 15px;
+     margin: auto;
+     background-color: white;
 
+}
+
+article{
+        margin: 15px;
 }
 
 .header {
@@ -26,11 +31,9 @@ main {
     border-radius: 25px;
     text-align: center;
     border: solid;
-    transform: scale(0.8);
-    transition-property: color;
-    transition-duration: 1s;
-    transition-delay: 0.1s;
-    transition-timing-function: ease;
+    margin: 20px 0;
+     transition: color 1s ease 0.1s;
+    
     
 }
 .hero-content:hover{
@@ -45,17 +48,13 @@ main {
     color: #950000;
 }
 
-.image-container{
+
+.img-wrapper{
     display: flex;
-    gap: 10px;
+    justify-content: start;
 }
 
-.image-container img {
-    width: 25%;
+.img-wrapper img {
+    width: 250px;
     height: auto;
-    overflow: hidden;
-}
-
-.footer{
-    background: linear-gradient(red, blue);
 }

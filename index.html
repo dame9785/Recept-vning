@@ -1,6 +1,8 @@
 <!doctype html>
 <html lang="sv">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
 
     <title>Recept</title>
@@ -9,15 +11,15 @@
   <body>
     <main>
       <header class="header"></header>
-      <section class="content-section">
-        <div class="hero-content">
-          <h1 class="section-title">Enkel recept på pannkakor</h1>
-          <h2>
-            Gör Traditionella tunna pannkakor med detta enkla och goda
-            pannkaksrecept
-          </h2>
-        </div
-        <div class="recept-content">
+      <div class="hero-content">
+        <h1 class="section-title">Enkel recept på pannkakor</h1>
+        <h2>
+          Gör Traditionella tunna pannkakor med detta enkla och goda
+          pannkaksrecept
+        </h2>
+      </div>
+      <article>
+        <section>
           <h2>Ingredienser</h2>
           <p>För fyra personer</p>
           <ul>
@@ -28,6 +30,8 @@
             <li>smör (till stekning)</li>
             <li>sylt, bär eller frukt till servering</li>
           </ul>
+        </section>
+        <section>
           <h2>Så här gör du</h2>
           <ol>
             <li>Blanda mjöl och salt i en bunke.</li>
@@ -37,19 +41,24 @@
             <li>Stek tunna pannkakor i lite smör.</li>
             <li>Servera med sylt, bär eller frukt.</li>
           </ol>
-          <h2>Serveringsförslag</h2>
-          <figure class="image-container">
+        </section>
+      </article>
+
+      <section>
+        <h2>Serveringsförslag</h2>
+        <div class="img-wrapper">
+          <figure>
             <figcaption>Servera pannkakor med sylt, bär eller frukt</figcaption>
             <img src="./pannkakor_full.jpg" alt="pankakor" />
-            <img src="./pannkakor_full.jpg" alt="pankakor" />
+          </figure>
+          <figure>
             <figcaption>Servera pannkakor med sylt, bär eller frukt</figcaption>
+            <img src="./pannkakor_full.jpg" alt="pankakor" />
           </figure>
         </div>
       </section>
 
-      <footer class="footer">
-        <p><time datetime="2023-10-10">10 oktober 2023</time></p>
-      </footer>
+      <footer class="footer"></footer>
     </main>
   </body>
 </html>
