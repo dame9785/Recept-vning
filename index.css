@@ -11,6 +11,10 @@ main {
 
 }
 
+.box-shadow{
+box-shadow: 2px 3px 20px rgba(0, 0, 0, 0.5);
+}
+
 article{
         margin: 15px;
         padding: 15px;
@@ -26,7 +30,7 @@ article{
 }
 .hero-content{
      padding: 15px;
-    box-shadow: 2px 3px 20px rgba(0, 0, 0, 0.5);
+    
     text-align: center;
     background-color: #fff8da;
 }
