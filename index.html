@@ -21,8 +21,8 @@
 
       <section>
         <!--Article Ingredients-->
-        <article>
-          <h2>Ingredienser</h2>
+        <article aria-labelledby="article-1">
+          <h2 id="article-1">Ingredienser</h2>
           <p>För fyra personer</p>
           <ul>
             <li>2 1/2 dl vetemjöl</li>
@@ -35,8 +35,8 @@
         </article>
 
         <!--Article how you do it-->
-        <article>
-          <h2>Så här gör du</h2>
+        <article aria-labelledby="article-2">
+          <h2 id="article-2">Så här gör du</h2>
           <ol>
             <li>Blanda mjöl och salt i en bunke.</li>
             <li>Vispa i hälften av mjölken och vispa till en slät smet.</li>
@@ -48,15 +48,19 @@
         </article>
       </section>
 
-      <section>
-        <h2>Serveringsförslag</h2>
+      <section aria-label="images">
+        <h2 id="images">Serveringsförslag</h2>
         <div class="img-wrapper">
-          <figure>
-            <figcaption>Servera pannkakor med sylt, bär eller frukt</figcaption>
+          <figure aria-labelledby="image-sub-title-1">
+            <figcaption id="image-sub-title-1">
+              Servera pannkakor med sylt, bär eller frukt
+            </figcaption>
             <img src="./pannkakor_full.jpg" alt="pannkakor" />
           </figure>
-          <figure>
-            <figcaption>Servera pannkakor med sylt, bär eller frukt</figcaption>
+          <figure aria-labelledby="image-sub-title-2">
+            <figcaption id="image-sub-title-2">
+              Servera pannkakor med sylt, bär eller frukt
+            </figcaption>
             <img src="./pannkakor_full.jpg" alt="pannkakor" />
           </figure>
         </div>
