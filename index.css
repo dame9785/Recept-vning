@@ -6,14 +6,14 @@ body {
 
 main {
      max-width: 1000px;
-    
-     margin: auto;
+      margin: auto;
      background-color: white;
 
 }
 
 article{
         margin: 15px;
+        padding: 15px;
 }
 
 .header {
@@ -25,21 +25,11 @@ article{
 
 }
 .hero-content{
-    
-    padding: 15px;
+     padding: 15px;
     box-shadow: 2px 3px 20px rgba(0, 0, 0, 0.5);
-    border-radius: 25px;
     text-align: center;
-    border: solid;
-    margin: 20px 0;
-     transition: color 1s ease 0.1s;
-    
-    
+    background-color: #fff8da;
 }
-.hero-content:hover{
-    color:orange
-}
-
 .content-section {
     padding: 15px;
 }
@@ -48,10 +38,24 @@ article{
     color: #950000;
 }
 
+.images-section{
+    padding: 15px;
+    margin: 15px;;
+}
 
 .img-wrapper{
     display: flex;
     justify-content: start;
+    gap: 40px;
+}
+
+.img-wrapper figure{
+    padding: 0;
+    margin: 0;
+}
+
+.img-wrapper figcaption{
+    padding-bottom: 15px;
 }
 
 .img-wrapper img {
