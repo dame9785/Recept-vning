@@ -11,16 +11,25 @@ main {
 
 }
 
+header{
+    background: palegoldenrod;
+    text-align: center;
+    box-shadow: yellow;
+    border: solid 1px;
+    box-shadow: wheat;
+    
+}
+
 .box-shadow{
-box-shadow: 2px 3px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 3px 20px rgba(0, 0, 0, 0.5);
 }
 
 article{
         margin: 15px;
         padding: 15px;
-}
+    }
 
-.header {
+.hero-image {
     background-image: url("./pannkakor.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,9 +39,8 @@ article{
 }
 .hero-content{
      padding: 15px;
-    
-    text-align: center;
-    background-color: #fff8da;
+     text-align: center;
+     background-color: #fff8da;
 }
 .content-section {
     padding: 15px;
