@@ -34,7 +34,7 @@ article{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 50vh;
+    height: 350px;
 
 }
 .hero-content{
@@ -56,18 +56,23 @@ article{
 }
 
 .img-wrapper{
-    display: flex;
+    display: grid;
     justify-content: start;
+    grid-template-columns: repeat(2, 1fr);
     gap: 40px;
+    width: fit-content;
 }
 
 .img-wrapper figure{
     padding: 0;
     margin: 0;
+    width: fit-content;
 }
 
 .img-wrapper figcaption{
     padding-bottom: 15px;
+      grid-column: 1 / -1;
+
 }
 
 .img-wrapper img {

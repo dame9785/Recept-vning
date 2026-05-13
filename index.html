@@ -10,7 +10,10 @@
 
   <body>
     <main>
-      <div class="hero-image"></div>
+      <!--Hero Image-->
+      <div class="hero-image" aria-hidden="true"></div>
+
+      <!--Header-->
       <header class="header box-shadow">
         <h1 class="section-title">Enkelt recept på pannkakor</h1>
         <p>
@@ -19,11 +22,11 @@
         </p>
       </header>
 
-      <!--Article Sections-->
-      <section>
-        <article aria-labelledby="article-1">
-          <h2 id="article-1">Ingredienser</h2>
-          <p><b>För fyra personer</b></p>
+      <article>
+        <!--Article Sections 1-->
+        <section aria-labelledby="section-1">
+          <h2 id="section-1">Ingredienser</h2>
+          <p><strong>För fyra personer</strong></p>
           <ul>
             <li>2 1/2 dl vetemjöl</li>
             <li>1/2 tsk salt</li>
@@ -32,10 +35,12 @@
             <li>smör (till stekning)</li>
             <li>sylt, bär eller frukt till servering</li>
           </ul>
-        </article>
+        </section>
+        <!--Article Sections 1 End-->
 
-        <article aria-labelledby="article-2">
-          <h2 id="article-2">Så här gör du</h2>
+        <!--Article Sections 2-->
+        <section aria-labelledby="section-2">
+          <h2 id="section-2">Så här gör du</h2>
           <ol>
             <li>Blanda mjöl och salt i en bunke.</li>
             <li>Vispa i hälften av mjölken och vispa till en slät smet.</li>
@@ -44,29 +49,34 @@
             <li>Stek tunna pannkakor i lite smör.</li>
             <li>Servera med sylt, bär eller frukt.</li>
           </ol>
-        </article>
-      </section>
-      <!--Article Sections End-->
+        </section>
+        <!--Article Sections 2 End-->
+      </article>
 
       <!--Images Sections-->
       <section class="images-section">
         <h2>Serveringsförslag</h2>
         <div class="img-wrapper">
           <figure>
-            <figcaption>Servera pannkakor med sylt, bär eller frukt</figcaption>
             <img
               class="box-shadow"
               src="./pannkakor_full.jpg"
-              alt="pannkakor full image"
+              alt="Bild på pannkakor med sylt, bär och frukt"
             />
+            <figcaption>
+              En bild av pannkakor med sylt, bär och frukt
+            </figcaption>
           </figure>
+
           <figure>
-            <figcaption>Servera pannkakor med sylt, bär eller frukt</figcaption>
             <img
               class="box-shadow"
               src="./pannkakor_full.jpg"
-              alt="pannkakor full image"
+              alt="Bild på pannkakor med sylt, bär och frukt"
             />
+            <figcaption>
+              En bild av pannkakor med sylt, bär och frukt
+            </figcaption>
           </figure>
         </div>
       </section>
