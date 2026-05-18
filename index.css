@@ -36,7 +36,6 @@ main {
 header {
   background: var(--color-white);
   text-align: center;
-  /* border: solid 1px; */
   background: var(--box-white);
   margin: 15px;
   border-radius: 25px;
@@ -121,15 +120,30 @@ section {
   width: fit-content;
 }
 
+.img-wrapper-title {
+  text-align: center;
+  padding: 15px;
+}
+
 .img-wrapper figure {
   padding: 0;
   margin: 0;
   width: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .img-wrapper figcaption {
   padding-bottom: 15px;
   grid-column: 1 / -1;
+  width: fit-content;
+  padding: 22px;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: bold;
+  background: #ffffff;
+  margin: 15px;
 }
 
 .img-wrapper img {
