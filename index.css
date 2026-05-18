@@ -1,6 +1,16 @@
 :root {
   --color-white: #fff;
   --color-black: #000000;
+  --box-white: #fff4f49c;
+}
+
+@font-face {
+  font-family: "PlayFairDisplay";
+  src: url("PlayfairDisplay-VariableFont_wght.ttf");
+}
+
+* {
+  font-family: "PlayFairDisplay", serif;
 }
 
 body {
@@ -26,9 +36,11 @@ main {
 header {
   background: var(--color-white);
   text-align: center;
-  box-shadow: yellow;
-  border: solid 1px;
-  box-shadow: wheat;
+  /* border: solid 1px; */
+  background: var(--box-white);
+  margin: 15px;
+  border-radius: 25px;
+  padding: 15px;
 }
 
 .navbar {
@@ -76,6 +88,14 @@ section {
   background-color: #ffffffa8;
 }
 
+.border-wrapper {
+  border: solid 1p;
+  border-radius: 25px;
+  padding: 40px;
+  box-shadow: 2px 3px 20px rgba(0, 0, 0, 0.5);
+  background: var(--box-white);
+}
+
 .hero-description {
   font-size: 1.1rem;
 }
@@ -95,7 +115,7 @@ section {
 
 .img-wrapper {
   display: grid;
-  justify-content: start;
+  justify-content: center;
   grid-template-columns: repeat(2, 1fr);
   gap: 40px;
   width: fit-content;
