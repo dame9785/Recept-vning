@@ -2,6 +2,7 @@
   --color-white: #fff;
   --color-black: #000000;
   --box-white: #fff4f49c;
+  --title-color: #950000;
 }
 
 @font-face {
@@ -14,7 +15,7 @@
 }
 
 body {
-  background-color: pink;
+  background-color: #fff0f3;
   padding: 0;
   margin: 0;
 }
@@ -76,6 +77,10 @@ header {
   box-shadow: 2px 3px 20px rgba(0, 0, 0, 0.5);
 }
 
+.sub-title {
+  color: var(--title-color);
+}
+
 section {
   margin: 15px;
   padding: 15px;
@@ -121,8 +126,14 @@ section {
 }
 
 .img-wrapper-title {
+  border-bottom: solid 1px #00000030;
   text-align: center;
   padding: 15px;
+  margin: 40px;
+  width: fit-content;
+  text-align: center;
+  display: flex;
+  justify-self: center;
 }
 
 .img-wrapper figure {
@@ -139,7 +150,7 @@ section {
   grid-column: 1 / -1;
   width: fit-content;
   padding: 22px;
-  border-radius: 25px;
+  border-radius: 30px;
   font-size: 18px;
   font-weight: bold;
   background: #ffffff;
